@@ -55,7 +55,7 @@ class BuyNow {
 	 */
 	public function restore_cart_items() {
 		$old_cart_items = WC()->session->get( 'undo_cart_items' );
-		foreach ( $old_cart_items as $cart_item ) {
+		foreach ( (array) $old_cart_items as $cart_item ) {
 			WC()->cart->add_to_cart( $cart_item['product_id'], $cart_item['quantity'] );
 		}
 
