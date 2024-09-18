@@ -1,25 +1,17 @@
-=== WooCommerce VIP ===
-Contributors: Istiaq Ahmmed Nirab
-Donate link: https://nirab.me
-Tags: 
-Requires at least: 4.0
-Tested up to: 5.4
-Stable tag: trunk
-Requires PHP: 5.6
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+## WooCommerce VIP
 
-Technical task for PrimeTechBD
+Clone the repo and run following command:
 
-== Description ==
+```sh
+composer install
+```
 
-Technical task for PrimeTechBD
+### Installation
 
-== Installation ==
+As usual wordpress plugins installation process.
 
-//plugin installation guide
+### Challenges
 
-== Changelog ==
+-   Implementing "Buy Now" Feature.
 
-= 1.0.0 =
-* Initial release
+**Thanks**
